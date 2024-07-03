@@ -1,0 +1,57 @@
+/* Importar la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Establecer reglas generales */
+
+.social-media {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.social-media .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.social-media h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los iconos */
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.social-links img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media(max-width : 800px) {
+    #central {
+        flex-direction: column;
+    }
+}
+
+
+
